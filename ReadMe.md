@@ -2,7 +2,7 @@ This Problem is from Leetcode Problem 0058 With a dificulty level of easy.
 
 The Link to the problem is https://leetcode.com/problems/length-of-last-word/description/
 
-Since I am shameless I am also uploading a solution to an easy peoblem on my personal github account but also I know there will be a time where I will want to review this solution in the future so as Jack Sparrow said to the horologist "There is no shame in that dear".
+Since I am shameless I am also uploading a solution to an easy problem on my personal github account but also I know there will be a time where I will want to review this solution in the future so as Jack Sparrow said to the horologist "There is no shame in that dear".
 
 I have solved the problem in different languages so you can look at the language of your choice and follow through.
 
@@ -38,9 +38,9 @@ s consists of only English letters and spaces ' '.
 There will be at least one word in s.
 
 The logic of my solution:
-I simply started from the last element and iterate backwards while not counting through spaces, a good example is imagine you are standing on top of rocks floating on lava. The rocks are aligned and you have to jump from one rock t another starting from the one nearest to the Mountain that erupted.
+I simply started from the last element and iterate backwards while not counting through spaces, a good example is imagine you are standing on top of rocks floating on lava. The rocks are aligned and you have to jump from one rock to another starting from the one nearest to the Mountain that erupted.
 
-In this scenerio you have to avoid touching the larva cause only the rocks help you so you only jump in between rocks while counting how many they are.
+In this scenerio you have to avoid touching the lava cause only the rocks help you so you only jump in between rocks while counting how many they are.
 
 Back to the problem the rocks are the letters in the words and the lava is spaces which we won't count.
 
